@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { connect, useDispatch } from 'react-redux';
-import PropTypes from 'prop-types';
 import { searchMovies, clearMovies } from '../actions/moviesActions';
 import MoviesGrid from '../components/MoviesGrid';
 
