@@ -1,0 +1,48 @@
+.singleMoviePage {
+    margin: 50px auto;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+}
+.singleMovieDetails {
+    display: flex;
+    gap: 25px;
+    padding: 30px;
+    border: 1px solid grey;
+    box-shadow: 3px 3px 5px #000;  
+
+}
+.poster {
+    width: 260px;
+    height: 350px;
+    margin: 0 auto;
+}
+.cast {
+    display: flex;
+    justify-content: space-around;
+}
+
+.singleMovieTitle {
+    display: inline-flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+    gap: 5px;
+}
+.singleMovieTitle h1 {
+    margin: 0;
+}
+.singleMovieTitle span {
+    font-size: 22px;
+    color: gray;
+    user-select: none;
+}
+.singleMovieGenres {
+    color: gray;
+}
+
+@media screen and (max-width: 600px) {
+    .singleMovieDetails {
+        flex-direction: column;
+    }
+}

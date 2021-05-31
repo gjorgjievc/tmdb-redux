@@ -1,0 +1,29 @@
+.footer {
+    background: black;
+    width: 100%;
+    color: wheat;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.tmdbLogo {
+    width: 100px;
+    height: 10%;
+    filter: grayscale(0.9);
+}
+.tmdbLogo:hover {
+    filter: none;
+}
+.github {
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 501;
+    color: #9ba7a8;
+}
+.github:hover {
+    color: #d3d3d3;
+}

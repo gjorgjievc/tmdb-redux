@@ -1,0 +1,16 @@
+.movies {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 15px;
+}
+.moviesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    margin: 0 50px 0 50px;
+    justify-items: center;
+    row-gap: 10px;
+}
+.movieTitle {
+    margin: 50px auto;
+}

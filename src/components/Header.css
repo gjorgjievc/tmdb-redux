@@ -1,0 +1,27 @@
+.header {
+    background-color: #211122;
+    width: 100%;
+    height: 80px;
+}
+.logo a {
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    color: #ffffd6;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 0 auto;
+    align-items: center;
+    height: 100%;
+    max-width: 900px;
+}
+@media screen and (max-width: 600px){
+    .nav {
+        max-width: 500px;
+    }
+
+}
