@@ -3,9 +3,7 @@ import './SingleMovie.css';
 import Person from './Person';
 import {listGenres, movieDuration } from './helpers';
 
-import ReactLoading from "react-loading";
-
-function SingleMovie ({ movie, genres, cast, crew, isLoaded }) {
+function SingleMovie ({ movie, genres, cast, crew }) {
     console.log('me viknaja single')
 return (
     <div className="singleMoviePage">
